@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="demo"/>
+<aop-project name="ProductManager"/>
+<aop-project name="ProductManagerMDL"/>
+<aop-project name="ProductManager2"/>
+<aop-project name="ProductManager3"/>
+<aop-project name="FinalTest"/>
+</aop-reference-model>

@@ -1,0 +1,11 @@
+INDEX VERSION 1.4+C:\Users\belarbim\Desktop\enseignement\IALTEM\StyleArchitecture\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+2236953261.index
+1969883825.index
+380426953.index
+288043630.index
+436902845.index
+2478400105.index
+1384878740.index
+1972570550.index
+1565528509.index
+2468458652.index

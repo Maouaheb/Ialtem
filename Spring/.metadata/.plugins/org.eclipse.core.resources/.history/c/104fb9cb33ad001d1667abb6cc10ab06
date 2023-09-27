@@ -1,0 +1,11 @@
+package net.codejava.ProductManager;
+
+public class Product {
+	private int id;
+	private String name;
+	private String madein;
+	private String brand;
+	private float price;
+	
+
+}

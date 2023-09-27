@@ -1,0 +1,19 @@
+package net.codejava.ProductManager;
+
+import java.util.List;
+
+public class ProductService {
+ProductRepository repo;
+public List<Product> listAll(){
+	return repo.findAll();
+}
+public void save(Product product) {
+	repo.save(product);
+}
+public Product getElement(int id) {
+	return repo.findById(id).get();
+}
+public void delete(int id ) {
+	repo.deleteById(id);
+}
+}

@@ -1,0 +1,5 @@
+INDEX VERSION 1.131
+C:\Users\belarbim\Desktop\enseignement\IALTEM\StyleArchitecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1329941796.index
+\SOAdemoClient\src
+C:\Users\belarbim\Desktop\enseignement\IALTEM\StyleArchitecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3019872961.index
+\SOAExampleClient\src

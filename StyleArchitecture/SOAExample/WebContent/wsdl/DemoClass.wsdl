@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions targetNamespace="http://demo" xmlns:apachesoap="http://xml.apache.org/xml-soap" xmlns:impl="http://demo" xmlns:intf="http://demo" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsdlsoap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<!--WSDL created by Apache Axis version: 1.4
+Built on Apr 22, 2006 (06:55:48 PDT)-->
+ <wsdl:types>
+  <schema elementFormDefault="qualified" targetNamespace="http://demo" xmlns="http://www.w3.org/2001/XMLSchema">
+   <element name="calculSomme">
+    <complexType>
+     <sequence>
+      <element name="a" type="xsd:int"/>
+      <element name="b" type="xsd:int"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="calculSommeResponse">
+    <complexType>
+     <sequence>
+      <element name="calculSommeReturn" type="xsd:int"/>
+     </sequence>
+    </complexType>
+   </element>
+  </schema>
+ </wsdl:types>
+
+   <wsdl:message name="calculSommeRequest">
+
+      <wsdl:part element="impl:calculSomme" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="calculSommeResponse">
+
+      <wsdl:part element="impl:calculSommeResponse" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:portType name="DemoClass">
+
+      <wsdl:operation name="calculSomme">
+
+         <wsdl:input message="impl:calculSommeRequest" name="calculSommeRequest">
+
+       </wsdl:input>
+
+         <wsdl:output message="impl:calculSommeResponse" name="calculSommeResponse">
+
+       </wsdl:output>
+
+      </wsdl:operation>
+
+   </wsdl:portType>
+
+   <wsdl:binding name="DemoClassSoapBinding" type="impl:DemoClass">
+
+      <wsdlsoap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+
+      <wsdl:operation name="calculSomme">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="calculSommeRequest">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="calculSommeResponse">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+   </wsdl:binding>
+
+   <wsdl:service name="DemoClassService">
+
+      <wsdl:port binding="impl:DemoClassSoapBinding" name="DemoClass">
+
+         <wsdlsoap:address location="http://localhost:8080/SOAExample/services/DemoClass"/>
+
+      </wsdl:port>
+
+   </wsdl:service>
+
+</wsdl:definitions>

@@ -1,0 +1,13 @@
+BranchProjectTracker__C\:\\Users\\belarbim\\Desktop\\enseignement\\Cours\ Bac3\\GitDemo\\testProject1\\.git_master=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<projects>\r\n<project>/</project>\r\n</projects>
+BranchProjectTracker__C\:\\Users\\belarbim\\Desktop\\enseignement\\Cours\ Bac3\\GitDemo\\testProject1\\.git_modification=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<projects>\r\n<project>/</project>\r\n</projects>
+BranchProjectTracker__C\:\\Users\\belarbim\\Desktop\\enseignement\\IALTEM\\StyleArchitecture\\test2\\testProject1\\.git_BrancheSupp=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<projects>\r\n<project>/</project>\r\n</projects>
+BranchProjectTracker__C\:\\Users\\belarbim\\Desktop\\enseignement\\IALTEM\\StyleArchitecture\\test2\\testProject1\\.git_Branche_1=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<projects>\r\n<project>/</project>\r\n</projects>
+BranchProjectTracker__C\:\\Users\\belarbim\\Desktop\\enseignement\\IALTEM\\StyleArchitecture\\test2\\testProject1\\.git_conflit=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<projects>\r\n<project>/</project>\r\n</projects>
+BranchProjectTracker__C\:\\Users\\belarbim\\Desktop\\enseignement\\IALTEM\\StyleArchitecture\\test2\\testProject1\\.git_master=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<projects>\r\n<project>/</project>\r\n</projects>
+StagingView_Presentation=TREE
+commit_dialog_history_messages=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<messages>\r\n<message>conflit r\u00E9solu&\#x0A;</message>\r\n<message>a\=7</message>\r\n<message>commit from brancheSupp</message>\r\n<message>conflit test</message>\r\n<message>Merge branch &apos;conflit&apos;&\#x0A;&\#x0A;Conflicts\:&\#x0A;&\#x09;src/Calcul.java&\#x0A;</message>\r\n<message>merge operation</message>\r\n<message>delete soustraction</message>\r\n<message>mise \u00E0 jour</message>\r\n<message>ajout b</message>\r\n<message>ajout variable</message>\r\n</messages>
+eclipse.preferences.version=1
+repositories_view_filters=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<FilterCache/>
+resourcehistory_graph_split=500,500
+resourcehistory_rev_split=700,300
+show_initial_config_dialog=false

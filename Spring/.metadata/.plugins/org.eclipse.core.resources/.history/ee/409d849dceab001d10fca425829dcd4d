@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>Product Manager</title>
+</head>
+<body>
+<div align="center">
+<h1>Product Manager</h1>
+<table border=1>
+<tr>
+<th>Product ID</th>
+<th>Name</th>
+<th>Made In</th>
+<th>Brand</th>
+<th>Price</th>
+
+</tr>
+</table>
+</div>  
+</body>
+</html>

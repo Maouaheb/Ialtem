@@ -1,0 +1,5 @@
+package net.codejava.ProductManager;
+
+public class AppController {
+
+}

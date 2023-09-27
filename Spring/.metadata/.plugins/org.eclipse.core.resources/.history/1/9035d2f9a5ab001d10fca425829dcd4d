@@ -1,0 +1,10 @@
+package net.codejava.ProductManager;
+
+import org.springframework.beans.factory.annotation.Autowired;
+@Controller
+public class AppController {
+	@Autowired
+	private ProductService service;
+	public viewH
+
+}

@@ -1,0 +1,15 @@
+package net.codejava.ProductManager;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+
+@Controller
+public class AppController {
+	@Autowired
+	ProductService service;
+	public String viewHomePage(Model model) {
+		return "index";
+	}
+
+}

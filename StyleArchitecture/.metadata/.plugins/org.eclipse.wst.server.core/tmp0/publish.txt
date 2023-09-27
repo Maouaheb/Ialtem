@@ -1,0 +1,5 @@
+#Tomcat publish data
+#Fri Sep 11 09:06:18 CEST 2020
+org.eclipse.jst.jee.server\:SOAExampleClient=C\:\\Program Files\\Apache Software Foundation\\Tomcat 9.0\\wtpwebapps\\SOAExampleClient
+org.eclipse.jst.jee.server\:Khra=C\:\\Program Files\\Apache Software Foundation\\Tomcat 9.0\\wtpwebapps\\Khra
+org.eclipse.jst.jee.server\:SOAExample=C\:\\Program Files\\Apache Software Foundation\\Tomcat 9.0\\wtpwebapps\\SOAExample
